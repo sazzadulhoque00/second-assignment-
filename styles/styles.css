@@ -69,7 +69,7 @@ a {
 }
 
 .banner-left {
-    background-image: url("/images/Group\ 14.png");
+    background-image: url("/styles/images/Group\ 14.png");
     padding: 148px 190px 148px 240px;
     text-align: center;
 }
@@ -164,11 +164,10 @@ a {
 }
 .play-instant-sec{
    display: flex;
+   gap: 5px;
+   text-align: right;
+   padding: 100px;
   
-}
-.play-sec-text{
-    text-align: center;
-   
 }
 .play-sec-text h3{
     color: #0B0223;
@@ -183,6 +182,21 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.primary-img{
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.primary-img {
+    width:100px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
 .secondery-img{
-  
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    border-radius: 8px;
+    position: relative;
+    bottom: 130px;
+    right: 50px;
 }
