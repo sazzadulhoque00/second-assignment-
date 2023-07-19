@@ -69,7 +69,7 @@ a {
 }
 
 .banner-left {
-    background-image: url("/styles/images/Group\ 14.png");
+    background-image: url("/images/Group\ 14.png");
     padding: 148px 190px 148px 240px;
     text-align: center;
 }
@@ -233,4 +233,66 @@ footer{
     padding: 0px auto;
     background: #0B0223;
     text-align: center;
+}
+.foot-img{
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.foot-img img{
+    width: 5%;
+}
+.foot-title{
+    color: #ffffff;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.foot-span{
+    color: #FF42A5;
+}
+.foot-link{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+.foot-link a{
+    width: max-content;
+}
+.foot-link a:visited{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.foot-icon img{
+    padding: 0px 20px ;
+    width: 70px;
+}
+.foot-copyright{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.foot-copyright a:link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.foot-copyright a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.foot-done{
+    padding: 20px 0px;
+    color: #ffffff
 }
